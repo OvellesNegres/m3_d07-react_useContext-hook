@@ -11,7 +11,7 @@ function ProjectsPage() {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <div className={"ProjectsPage " + theme}>
+    <div className={"theme"}>
       <h1>My Projects</h1>
       <div className="projects">
         {projects.map((p) => <ProjectCard key={p._id} project={p} /> )}

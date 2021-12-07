@@ -10,9 +10,7 @@ import { ThemeProviderWrapper } from './context/theme.context';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <ThemeProviderWrapper>
         <App />
-      </ThemeProviderWrapper>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
